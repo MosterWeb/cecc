@@ -26,6 +26,34 @@
     background-color: var(--color-primario_mkt)!important;
 }
 
+/* Page title */
+.page-title_mkt {
+	/* Combinación de imagen de fondo y gradiente lineal */
+	background-image: linear-gradient(to bottom, rgba(248, 91, 92, 1), rgba(248, 91, 92, 0.9), rgba(248, 91, 92, 0.8), rgba(248, 91, 92, 0.7)), url(../img/marketing.jpg);
+
+
+/* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */
+	background-size: cover;
+	background-position: center;
+	height: auto;
+  }
+  .page-title_mkt h1 {
+    color: var(--color_primario_mkt)!important;
+   
+}
+  
+  @media(min-width:768px){
+	  .page-title_mkt {
+		  /* Combinación de imagen de fondo y gradiente lineal */
+      background-image: linear-gradient(to bottom, rgba(248, 91, 91, 0.904), rgba(248, 91, 91, 0.87), rgba(248, 91, 91, 0.781), rgba(248, 91, 91, 0.863)), url(../img/marketing.jpg);
+/* Opciones para el tamaño y posición de la imagen de fondo */
+		  background-size: cover;
+		  background-position: center;
+		  height: 30vh;
+  
+		}    
+  }
+
   .bold{
 	font-weight: 600;
   }

@@ -26,6 +26,29 @@
     background-color: var(--color-primario_design)!important;
 }
 
+ /* Page title */
+ .page-title_design {
+	/* Combinación de imagen de fondo y gradiente lineal */
+	background-image: linear-gradient(to bottom, #91215bfb, #c9006875), url(../img/design.jpg);
+
+/* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */
+	background-size: cover;
+	background-position: center;
+	height: auto;
+  }
+  
+  @media(min-width:768px){
+	  .page-title_design {
+		  /* Combinación de imagen de fondo y gradiente lineal */
+      background-image: linear-gradient(to bottom, #91215bd5, #91215bd7), url(../img/design.jpg);
+  /* Opciones para el tamaño y posición de la imagen de fondo */
+		  background-size: cover;
+		  background-position: center;
+		  height: 30vh;
+  
+		}    
+  }
+
 /* Deyli &  Design  */
 .woocommerce .product_meta .tagged_as a::before {
   content: "";

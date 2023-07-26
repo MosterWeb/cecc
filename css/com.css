@@ -28,6 +28,30 @@
     background-color: var(--color_primario_com)!important;
 }
 
+ /* Page title */
+ .page-title_com {
+	/* Combinación de imagen de fondo y gradiente lineal */
+	background-image: linear-gradient(to top, #009aa29a, #37c6cedc),  
+	url(../img/cine.jpg);
+	/* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */
+	background-size: cover;
+	background-position: center;
+	height: auto;
+  }
+  
+  
+  @media(min-width:768px){
+	  .page-title_com {
+		  /* Combinación de imagen de fondo y gradiente lineal */
+		 
+		  /* Opciones para el tamaño y posición de la imagen de fondo */
+		  background-size: cover;
+		  background-position: center;
+		  height: 30vh;
+  
+		}    
+  }
+
 /* Deyli &  Design  */
 .woocommerce .product_meta .tagged_as a::before {
   content: "";

@@ -1,0 +1,415 @@
+:root {
+  --color_primario_calc: #e94b5a;
+  --color_principal: #007cba;
+  --white: #fafafa;
+}
+.color_primario_calc {
+  color: var(--color_primario_calc) !important;
+}
+
+/* Fondo de la pagina  */
+.bg-calc{
+    background-image:  url(../img/fondo-calc.jpg);
+     background-size: cover;
+      width: 100%;
+}
+.bg-calc > .cont{
+    padding: 4rem 0 4rem 0;
+}
+
+/*
+  ---------------------------------------------
+   Cabecera     --------------------------------
+  ---------------------------------------------
+   */
+/* Banner de la cabecera */
+.page-title_calc {
+  background-image: linear-gradient(to top, #e94b5be0, #e94b5bd3),
+    url(../img/calc-img.png);
+  background-position: 20% center; /* Ajustamos la posición de la imagen */
+  background-repeat: no-repeat;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title_calc h1 {
+  color: var(--white) !important;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .page-title_calc {
+    /* Combinación de imagen de fondo y gradiente lineal */
+    background-image: linear-gradient(to top, #e94b5be0, #e94b5bd3),
+      url(../img/calc-img.png);
+    /* Opciones para el tamaño y posición de la imagen de fondo */
+    height: 30vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title_calc {
+    /* Combinación de imagen de fondo y gradiente lineal */
+    background-image: linear-gradient(to top, #e94b5be0, #e94b5bd3),
+      url(../img/calc-img.png);
+    /* Opciones para el tamaño y posición de la imagen de fondo */
+    height: 15vh;
+  }
+}
+
+/* titulo de la cabecera  */
+.blog-calc_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 1%; */
+  letter-spacing: 6px;
+}
+
+.blog-calc_title h1 {
+  background-color: transparent !important;
+  margin-top: 20px !important;
+  float: right;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+/* Dejar afuer  */
+
+@media (max-width: 480px) {
+  .blog-calc_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 1%; */
+    letter-spacing: 0;
+  }
+
+  .blog-calc_title h1 {
+    background-color: transparent !important;
+    margin-top: 10px !important;
+    font-size: 10px;
+    line-height: 23px;
+  }
+  .blog-calc_title img {
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-calc_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 1%; */
+    letter-spacing: 10px;
+  }
+
+  .blog-calc_title h1 {
+    background-color: transparent !important;
+    margin-top: 20px !important;
+    font-size: 20px;
+  }
+}
+
+/*
+  ---------------------------------------------
+   Titulos     --------------------------------
+  ---------------------------------------------
+   */
+.calc-title {
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.calc-title h2 {
+  text-align: center;
+}
+
+.read-more-btn {
+  display: none;
+}
+
+/* Estilos para la versión móvil */
+/* Estilos para la versión móvil */
+/* Estilos para la versión móvil */
+@media screen and (max-width: 480px) {
+  .calc-title {
+    max-width: 100%;
+  }
+  .calc-title .content {
+    font-size: 18px;
+    text-align: center; /* Justificamos el texto para un aspecto más limpio */
+    overflow: hidden; /* Ocultamos el contenido que excede las líneas permitidas */
+    display: -webkit-box; /* Hacemos uso de un layout flexible */
+    -webkit-line-clamp: 4; /* Establecemos el número máximo de líneas */
+    -webkit-box-orient: vertical; /* Orientamos el layout en vertical */
+    line-height: 1.2;
+  }
+
+  .calc-title.collapsed .content {
+    -webkit-line-clamp: initial; /* Mostramos todo el contenido cuando se añade la clase .collapsed */
+  }
+
+  .read-more-btn {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    color: #007dbb;
+    font-weight: 500;
+  }
+
+  /* Resto de estilos para versión móvil */
+  /* ... (sigue el resto de tu código) ... */
+}
+
+/*
+  ---------------------------------------------
+   Circulos    --------------------------------
+  ---------------------------------------------
+   */
+
+   .circle-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e94b5a;
+    border-radius: 50%;
+    margin: 5px;
+    font-weight: bold;
+    color: #e94b5a;
+    text-align: center;
+    line-height: 1;
+    transition: all 0.3s ease; /* Transición suave */
+    cursor: pointer;
+  }
+  
+  /* Estilo para la línea de conexión izquierda */
+  .circle:not(:first-child)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -40px; /* Ajustamos el desplazamiento a la izquierda */
+    width: 30px; /* Longitud de la línea */
+    height: 0; /* Altura de la línea */
+    border-top: 2px dashed #e94b5a; /* Línea punteada */
+  }
+  
+  /* Estilo para la línea de conexión derecha */
+  .circle:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -40px; /* Ajustamos el desplazamiento a la derecha */
+    width: 30px; /* Longitud de la línea */
+    height: 0; /* Altura de la línea */
+    border-top: 2px dashed #e94b5a; /* Línea punteada */
+  }
+  
+  /* Estilo para el círculo relleno */
+  .filled {
+    background-color: #e94b5a;
+    color: white;
+  }
+  
+  /* Estilo para el hover en el círculo con borde */
+  .circle:hover {
+    background-color: #e94b5a; /* Fondo de color base */
+    color: white; /* Letras blancas */
+    border-color: white; /* Borde en blanco */
+  }
+  
+  /* Estilo para el hover en el círculo relleno */
+  .filled:hover {
+    background-color: white; /* Fondo blanco */
+    color: #e94b5a; /* Letras de color base */
+    border-color: #e94b5a; /* Borde de color base */
+  }
+  
+  /* Media query para ocultar las líneas en versión móvil y tablet */
+  @media screen and (max-width: 1200px) {
+    .circle::before,
+    .circle::after {
+      display: none;
+    }
+  }
+  
+  /* Media query para la versión escritorio y laptop */
+  @media screen and (min-width: 768px) {
+    .circle-row {
+      justify-content: space-between; /* Ajustamos el espacio entre los círculos */
+      margin: auto;
+    }
+  }
+            
+
+/*
+  ---------------------------------------------
+   Aside     --------------------------------
+  ---------------------------------------------
+   */
+.page-content {
+  display: flex;
+  justify-content: center;
+  padding: 10px !important;
+}
+.blog-post {
+  margin: 10px 0 !important;
+}
+.cal-aside {
+  max-width: 30%;
+  margin: auto;
+  box-shadow: 1px 4px 20px rgba(126, 126, 126, 0.253);
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+@media (max-width: 480px) {
+  .cal-aside {
+    max-width: 80%;
+  }
+}
+@media (max-width: 780px) {
+  .cal-aside {
+    max-width: 60%;
+  }
+}
+.cal-aside h2 {
+  float: none !important;
+  text-align: center;
+}
+.cal-aside img {
+  max-width: 60%;
+  margin: auto;
+  padding: 40px;
+}
+
+title-wrapper p:first-child {
+  text-align: center;
+}
+
+/*
+  ---------------------------------------------
+   Formulario  --------------------------------
+  ---------------------------------------------
+   */
+
+form {
+  margin: 0 auto 0 auto;
+  max-width: 85%;
+}
+.cws-button.calc {
+  border-color: var(--color_principal) !important;
+  display: flex;
+  margin: 25px auto 5px auto;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cws-button.calc:hover {
+  border-color: var(--color_principal) !important;
+  background-color: var(--color_principal) !important;
+}
+
+/* Líneas a los costados  */
+.title-wrapper {
+  text-align: center;
+}
+
+.line-left,
+.line-right {
+  display: inline-block;
+  width: 23%;
+  border-top: 0.1px solid rgba(83, 83, 83, 0.295);
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+@media (max-width: 480px) {
+  .line-left,
+  .line-right {
+    width: 10%;
+  }
+}
+/*
+  ---------------------------------------------
+   Formulario  --------------------------------
+  ---------------------------------------------
+   */
+
+.title-text {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* Formulario  */
+.input-container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.input-container input[type="text"] {
+  padding-right: 30px; /* Cambio padding-left a padding-right */
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Cambio left a right */
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #d4d4d4;
+}
+
+@media (max-width: 480px) {
+  .input-container {
+    position: relative;
+    margin-top: 10px;
+  }
+}
+
+/* Boton de question  */
+.cws-button.calc-btn_question{
+    border-color: rgb(255, 255, 255)!important;
+    background-color: white!important;
+    text-align: center;
+}
+.bg-calc div:last-child{   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.bg-calc div:last-child a{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px){
+    .cws-button.calc-btn_question {
+        min-width: 45%;
+    }
+}

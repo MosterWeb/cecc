@@ -31,6 +31,46 @@
     background-color: var(--color-primario_rrpp)!important;
 }
 
+/* Page title */
+.page-title_rrpp {
+	/* Combinación de imagen de fondo y gradiente lineal */
+	background-image: linear-gradient(to bottom, 
+  rgba(107, 154, 82, 0.9), 
+  rgba(107, 154, 82, 0.7) 25%, 
+  rgba(107, 154, 82, 0.6) 50%, 
+  rgba(107, 154, 82, 0.7) 75%, 
+  rgba(107, 154, 82, 0.9)
+), url(../img/rrpp.jpg);
+/* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */
+	background-size: cover;
+	background-position: center;
+	height: auto;
+  }
+  .page-title_rrpp h1 {
+    color: var(--color_primario_rrpp)!important;
+   
+}
+  
+  @media(min-width:768px){
+	  .page-title_rrpp {
+		  /* Combinación de imagen de fondo y gradiente lineal */
+      background-image: linear-gradient(to bottom, 
+      rgba(107, 154, 82, 0.9), 
+      rgba(107, 154, 82, 0.7) 25%, 
+      rgba(107, 154, 82, 0.6) 50%, 
+      rgba(107, 154, 82, 0.7) 75%, 
+      rgba(107, 154, 82, 0.9)
+    ), url(../img/rrpp.jpg);
+    
+/* Opciones para el tamaño y posición de la imagen de fondo */
+		  background-size: cover;
+		  background-position: center;
+		  height: 28vh;
+  
+		}    
+  }
+
+
   .bold{
 	font-weight: 600;
   }

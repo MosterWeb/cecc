@@ -1,6 +1,6 @@
 
 :root{
-    --color_primario_blog: #007dbb;
+   
     --color_primario_articulo: #009ba2;
     --color_primario_com: #e57c2b;
      
@@ -78,7 +78,7 @@
         /* Opciones para el tamaño y posición de la imagen de fondo */
         background-size: cover;
         background-position: center;
-        height: 28vh;
+        height: 30vh;
 
       }    
 }
@@ -102,6 +102,10 @@
     background-image: linear-gradient(to top, rgba(244, 244, 244), rgba(244, 244, 244));
     /* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */;
     height: 20vh;
+  }
+
+  .page-title_articulo h1{
+    color: var(--color_primario_com)!important;
   }
   
 

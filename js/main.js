@@ -1853,3 +1853,15 @@ $(window).on('scroll', function() {
   ajustarMargenSuperior();
 });
 
+$(document).ready(function() {
+  $(".read-more-btn").on("click", function() {
+    var $calcTitle = $(".calc-title");
+    $calcTitle.toggleClass("collapsed");
+    
+    if ($calcTitle.hasClass("collapsed")) {
+      $(this).text("Retraer");
+    } else {
+      $(this).text("Leer más");
+    }
+  });
+});
