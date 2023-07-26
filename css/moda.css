@@ -1,0 +1,160 @@
+
+/* Variables de colores:  */
+:root {
+	/* moda  */
+
+	--color_primario_moda: #9d3472;
+    --color_secundario_moda: #007dbb;
+    --color_terciario_moda: #9d3472;
+	--color_referencia_moda: #67aa46; 
+
+
+/* 
+  
+	
+	--color-terciario_moda: #ef7911;
+	--color-referencia_moda: #67aa46; */
+
+	
+	
+  }
+
+  
+
+  .page-title {
+    text-align: center;
+    background-color: var(--color-primario_moda)!important;
+}
+
+/* Deyli &  Design  */
+.woocommerce .product_meta .tagged_as a::before {
+  content: "";
+  color: var(--color_primario_moda)!important;
+}
+
+
+  .bold{
+	font-weight: 600;
+  }
+
+  .spacing{
+	letter-spacing: 1.2px;
+  }
+
+  /* Logo  */
+  
+  .logo_texto{
+	height: 40px!important;
+
+  }
+  /* moda  */
+  .color_secundario_moda{
+	color: var(--color-secundario_moda)!important;
+  }
+  .color_primario_moda{
+	color: var(--color_primario_moda)!important;
+  }
+
+  .color_terciario_moda{
+	color: var(--color_terciario_moda)!important;
+  }
+
+  .ccolor_referencia_moda{
+	color: var(--color_referencia_moda)!important;
+  }
+
+  
+
+  .cws-button.alt:hover{
+	background-color: var(--color_primario_moda)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+  .cws-button.alt.moda_referencia:hover{
+	background-color: var(--color_referencia_moda)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+
+  .cws-button{
+	border: 2px solid var(--color_primario_moda)!important;
+  }
+
+  .woomodamerce .product_meta .tagged_as a::before {
+    content: "";
+    color: var(--color_primario_moda)!important;
+}
+
+/* guiones de items materias importantes */
+.main-features .minus_cine {
+    color: var(--color_primario_moda)!important;
+}
+
+/* Siguenos */
+.widget-subscribe > .color_secundario_moda a {
+    display: inline-block;
+    border: 2px solid var(--color-secundario_moda)!important;
+    color: var(--color_secundario_moda)!important;
+}
+.widget-subscribe > .color_secundario_moda a:hover{
+	background-color: var(--color-secundario_moda)!important;
+	color: white!important;
+}
+
+/* Footer */
+.ft_secundario_bg_franja_moda{
+	background-color: var(--color-secundario_moda)!important;
+}
+
+.ft_terciario_bg_franja_moda{
+	background-color: var(--color-terciario_moda)!important;
+}
+.ft_referencia_bg_franja_moda{
+	background-color: var(--color-referencia_moda)!important;
+}
+
+.footer-latest .course-date_moda > * {
+    display: inline-block;
+    color: var(--color-terciario_moda);
+    font-weight: 500;
+    line-height: 15px;
+}
+
+
+
+.cws-button_moda {
+    border: 2px solid var(--color-terciario_moda) !important;
+}
+/* Los items  */
+ul .moda:before {
+    content: "\f111";
+    font-family: "FontAwesome";
+    font-size: 8px;
+    position: absolute;
+    left: 0px;
+    color: var(--color_primario_moda)!important;
+    font-weight: 800;
+    line-height: 35px;
+}
+/* single correcciones  */
+.blog_subcontent{
+	font-size: 12px; line-height: 3;
+}
+
+.picture > .hover-effect {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-secundario_moda)!important;
+    opacity: 0;
+    transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+/**/

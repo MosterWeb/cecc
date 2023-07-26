@@ -1,0 +1,161 @@
+
+/* Variables de colores:  */
+:root {
+	/* com  */
+
+	--color_primario_com: #ef7911;
+    --color-secundario_com: #007dbb;
+    --color-terciario_com: #ef7911;
+	--color-referencia_com: #67aa46; 
+
+
+/* 
+  
+	
+	--color-terciario_com: #ef7911;
+	--color-referencia_com: #67aa46; */
+
+	
+	
+  }
+
+  .bg_diseno{
+    background-color: var(--color_primario_com)!important;
+  }
+
+  .page-title {
+    text-align: center;
+    background-color: var(--color_primario_com)!important;
+}
+
+/* Deyli &  Design  */
+.woocommerce .product_meta .tagged_as a::before {
+  content: "";
+  color: var(--color_primario_com)!important;
+}
+
+  .bold{
+	font-weight: 600;
+  }
+
+  .spacing{
+	letter-spacing: 1.2px;
+  }
+
+  /* Logo  */
+  
+  .logo_texto{
+	height: 40px!important;
+
+  }
+  /* com  */
+  .color_secundario_com{
+	color: var(--color-secundario_com)!important;
+  }
+  .color_primario_com{
+	color: var(--color_primario_com)!important;
+  }
+
+  .color_terciario_com{
+	color: var(--color-terciario_com)!important;
+  }
+
+  .color_referencia_com{
+	color: var(--color-referencia_com)!important;
+  }
+
+  
+
+  .cws-button.alt:hover{
+	background-color: var(--color_primario_com)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+  .cws-button.alt.com_referencia:hover{
+	background-color: var(--color-referencia_com)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+
+  .cws-button{
+	border: 2px solid var(--color_primario_com)!important;
+  }
+
+  .woocommerce .product_meta .tagged_as a::before {
+    content: "";
+    color: var(--color_primario_com)!important;
+}
+
+/* guiones de items materias importantes */
+.main-features .minus_com {
+    color: var(--color_primario_com)
+}
+
+/* Siguenos */
+.widget-subscribe > .color_secundario_com a {
+    display: inline-block;
+    border: 2px solid var(--color-secundario_com)!important;
+    color: var(--color-secundario_com)!important;
+}
+.widget-subscribe > .color_secundario_com a:hover{
+	background-color: var(--color-secundario_com)!important;
+	color: white!important;
+}
+
+/* Footer */
+.ft_secundario_bg_franja_com{
+	background-color: var(--color-secundario_com)!important;
+}
+
+.ft_terciario_bg_franja_com{
+	background-color: var(--color-terciario_com)!important;
+}
+.ft_referencia_bg_franja_com{
+	background-color: var(--color-referencia_com)!important;
+}
+
+.footer-latest .course-date_com > * {
+    display: inline-block;
+    color: var(--color-terciario_com);
+    font-weight: 500;
+    line-height: 15px;
+}
+
+
+
+.cws-button_com {
+    border: 2px solid var(--color-terciario_com) !important;
+}
+/* Los items  */
+ul .com:before {
+    content: "\f111";
+    font-family: "FontAwesome";
+    font-size: 8px;
+    position: absolute;
+    left: 0px;
+    color: var(--color_primario_com)!important;
+    font-weight: 800;
+    line-height: 35px;
+}
+/* single correcciones  */
+.blog_subcontent{
+	font-size: 12px; line-height: 3;
+}
+
+.picture > .hover-effect {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-secundario_com)!important;
+    opacity: 0;
+    transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+/**/

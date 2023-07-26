@@ -1,0 +1,153 @@
+
+/* Variables de colores:  */
+:root {
+	/* mkt  */
+
+	--color_primario_mkt: #f85b5c;
+    --color_secundario_mkt: #007dbb;
+    --color_terciario_mkt: #9d3472;
+	--color_referencia_mkt: #67aa46; 
+
+
+/* 
+  
+	
+	--color-terciario_mkt: #ef7911;
+	--color-referencia_mkt: #67aa46; */
+
+	
+	
+  }
+
+  
+
+  .page-title {
+    text-align: center;
+    background-color: var(--color-primario_mkt)!important;
+}
+
+  .bold{
+	font-weight: 600;
+  }
+
+  .spacing{
+	letter-spacing: 1.2px;
+  }
+
+  /* Logo  */
+  
+  .logo_texto{
+	height: 40px!important;
+
+  }
+  /* mkt  */
+  .color_secundario_mkt{
+	color: var(--color-secundario_mkt)!important;
+  }
+  .color_primario_mkt{
+	color: var(--color_primario_mkt)!important;
+  }
+
+  .color_terciario_mkt{
+	color: var(--color_terciario_mkt)!important;
+  }
+
+  .ccolor_referencia_mkt{
+	color: var(--color_referencia_mkt)!important;
+  }
+
+  
+
+  .cws-button.alt:hover{
+	background-color: var(--color_primario_mkt)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+  .cws-button.alt.mkt_referencia:hover{
+	background-color: var(--color_referencia_mkt)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+
+  .cws-button{
+	border: 2px solid var(--color_primario_mkt)!important;
+  }
+
+  .woomktmerce .product_meta .tagged_as a::before {
+    content: "";
+    color: var(--color_primario_mkt)!important;
+}
+
+/* guiones de items materias importantes */
+.main-features .minus_cine {
+    color: var(--color_primario_mkt)!important;
+}
+
+/* Siguenos */
+.widget-subscribe > .color_secundario_mkt a {
+    display: inline-block;
+    border: 2px solid var(--color-secundario_mkt)!important;
+    color: var(--color_secundario_mkt)!important;
+}
+.widget-subscribe > .color_secundario_mkt a:hover{
+	background-color: var(--color-secundario_mkt)!important;
+	color: white!important;
+}
+
+/* Footer */
+.ft_secundario_bg_franja_mkt{
+	background-color: var(--color-secundario_mkt)!important;
+}
+
+.ft_terciario_bg_franja_mkt{
+	background-color: var(--color-terciario_mkt)!important;
+}
+.ft_referencia_bg_franja_mkt{
+	background-color: var(--color-referencia_mkt)!important;
+}
+
+.footer-latest .course-date_mkt > * {
+    display: inline-block;
+    color: var(--color-terciario_mkt);
+    font-weight: 500;
+    line-height: 15px;
+}
+
+
+
+.cws-button_mkt {
+    border: 2px solid var(--color-terciario_mkt) !important;
+}
+/* Los items  */
+ul .mkt:before {
+    content: "\f111";
+    font-family: "FontAwesome";
+    font-size: 8px;
+    position: absolute;
+    left: 0px;
+    color: var(--color_primario_mkt)!important;
+    font-weight: 800;
+    line-height: 35px;
+}
+/* single correcciones  */
+.blog_subcontent{
+	font-size: 12px; line-height: 3;
+}
+
+.picture > .hover-effect {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-secundario_mkt)!important;
+    opacity: 0;
+    transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+/**/

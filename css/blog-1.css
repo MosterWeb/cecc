@@ -1,0 +1,186 @@
+
+:root{
+    --color_primario_blog: #007dbb;
+    --color_primario_articulo: #009ba2;
+    --color_primario_com: #e57c2b;
+     
+}
+/* Post grid - Author */
+.blog-1_author {
+    display: flex;
+    justify-content: space-between;
+    margin: -19px 10px 12px 0;
+}
+
+.blog_prev, .blog_next{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: 700;
+}
+
+.blog-a_next{
+    width: 25%; display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    padding: 0 15px 0 15px!important;
+    gap:10px!important;
+}
+
+/* Colores del paginate */
+.page-pagination a.active {
+    background-color: var(--color_primario_blog)!important;
+    color: rgb(255, 255, 255)!important;
+    border-color: var(--color_primario_blog)!important;
+}
+
+.page-pagination a:last-child, .page-pagination a:first-child {
+    color: var(--color_primario_blog)!important;
+    background-color: rgb(242, 242, 242);
+    font-size: 30px;
+}
+
+/* Clores de los buttons */
+.cws-button.alt{
+    border-color: var(--color_primario_blog)!important;
+}
+
+.cws-button.alt:hover {
+    background-color: var(--color_primario_blog)!important;
+    color: rgb(255, 255, 255) !important;
+}
+
+/* Hover del paginador */
+.page-pagination a.next:hover, .page-pagination a.prev:hover, .page-pagination a:hover{
+    background-color: var(--color_primario_blog)!important;
+    color: rgb(255, 255, 255)!important;
+    border-color: var(--color_primario_blog)!important;
+}
+
+/* Banner de la cabecera */
+.page-title_blog {
+  /* Combinación de imagen de fondo y gradiente lineal */
+  background-image: linear-gradient(to top, rgba(0, 102, 204, 0.61), rgba(0, 123, 190, 0.63)), 
+  linear-gradient(to right, rgba(255, 0, 0, 0.267), rgba(0, 255, 0, 0.253)), 
+  url(../img/Blog.jpg);
+  /* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+}
+
+@media(min-width:768px){
+    .page-title_blog {
+        /* Combinación de imagen de fondo y gradiente lineal */
+        background-image: linear-gradient(to top, rgba(0, 102, 204, 0.61), rgba(0, 123, 190, 0.63)), 
+        linear-gradient(to right, rgba(255, 0, 0, 0.267), rgba(0, 255, 0, 0.253)), 
+        url(../img/Blog.jpg);
+        /* Opciones para el tamaño y posición de la imagen de fondo */
+        background-size: cover;
+        background-position: center;
+        height: 28vh;
+
+      }    
+}
+
+
+  
+  /* Estilos de blog-2-articulos */
+  /* Hr  */
+  .color_primario_articulo{
+    color:  var(--color_primario_articulo)!important;
+  }
+  .articulos{
+    border-top: 1px solid var(--color_primario_articulo)!important;
+    margin-bottom: 40px; 
+    background-color: var(--color_primario_articulo)!important;
+}
+
+/* Banner de la cabecera */
+.page-title_articulo {
+    /* Combinación de imagen de fondo y gradiente lineal */
+    background-image: linear-gradient(to top, rgba(244, 244, 244), rgba(244, 244, 244));
+    /* Opciones para el tamaño y posición de la imagen de fondo, si es necesario */;
+    height: 20vh;
+  }
+  
+
+  @media(max-width:768px){
+      .page-title_articulo {
+          /* Combinación de imagen de fondo y gradiente lineal */
+          background-image: linear-gradient(to top, rgba(244, 244, 244), rgba(244, 244, 244));
+          /* Opciones para el tamaño y posición de la imagen de fondo */        
+          height: 30vh;
+  
+        }    
+  }
+
+  @media(max-width:480px){
+    .page-title_articulo {
+        /* Combinación de imagen de fondo y gradiente lineal */
+        background-image: linear-gradient(to top, rgba(244, 244, 244), rgba(244, 244, 244));
+        /* Opciones para el tamaño y posición de la imagen de fondo */        
+        height: 15vh;
+
+      }    
+}
+
+  /* titulo de la cabecera  */
+  .blog-articulo_title{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    /* padding-top: 1%; */
+    letter-spacing: 6px;
+  }
+
+  .blog-articulo_title h1{
+    background-color: transparent!important;
+    margin-top: 20px!important;
+    float: right; 
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  /* Dejar afuer  */
+
+  @media(max-width:480px){
+    .blog-articulo_title{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+        /* padding-top: 1%; */
+        letter-spacing: 0;
+      }
+    
+      .blog-articulo_title h1{
+        background-color: transparent!important;
+        margin-top: 10px!important;
+        font-size: 10px;
+        line-height: 23px;
+      }
+      .blog-articulo_title img{
+        max-width: 90px;
+      }
+      
+}
+  
+
+  @media(max-width:768px){
+    .blog-articulo_title{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        /* padding-top: 1%; */
+        letter-spacing: 10px;
+      }
+    
+      .blog-articulo_title h1{
+        background-color: transparent!important;
+        margin-top: 20px!important;
+        font-size: 20px;
+      }
+      
+}
+  

@@ -1,0 +1,159 @@
+
+/* Variables de colores:  */
+:root {
+	/* publicidad  */
+
+	--color_primario_publicidad: #feb41b;
+    --color_secundario_publicidad: #007dbb;
+    --color_terciario_publicidad: #9d3472;
+	--color_referencia_publicidad: #67aa46; 
+
+
+/* 
+  
+	
+	--color-terciario_publicidad: #ef7911;
+	--color-referencia_publicidad: #67aa46; */
+
+	
+	
+  }
+
+  
+
+  .page-title {
+    text-align: center;
+    background-color: var(--color-primario_publicidad)!important;
+}
+
+/* Deyli &  Design  */
+.woocommerce .product_meta .tagged_as a::before {
+  content: "";
+  color: var(--color_primario_publicidad)!important;
+}
+
+  .bold{
+	font-weight: 600;
+  }
+
+  .spacing{
+	letter-spacing: 1.2px;
+  }
+
+  /* Logo  */
+  
+  .logo_texto{
+	height: 40px!important;
+
+  }
+  /* publicidad  */
+  .color_secundario_publicidad{
+	color: var(--color-secundario_publicidad)!important;
+  }
+  .color_primario_publicidad{
+	color: var(--color_primario_publicidad)!important;
+  }
+
+  .color_terciario_publicidad{
+	color: var(--color_terciario_publicidad)!important;
+  }
+
+  .ccolor_referencia_publicidad{
+	color: var(--color_referencia_publicidad)!important;
+  }
+
+  
+
+  .cws-button.alt:hover{
+	background-color: var(--color_primario_publicidad)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+  .cws-button.alt.publicidad_referencia:hover{
+	background-color: var(--color_referencia_publicidad)!important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  
+
+  .cws-button{
+	border: 2px solid var(--color_primario_publicidad)!important;
+  }
+
+  .woopublicidadmerce .product_meta .tagged_as a::before {
+    content: "";
+    color: var(--color_primario_publicidad)!important;
+}
+
+/* guiones de items materias importantes */
+.main-features .minus_cine {
+    color: var(--color_primario_publicidad)!important;
+}
+
+/* Siguenos */
+.widget-subscribe > .color_secundario_publicidad a {
+    display: inline-block;
+    border: 2px solid var(--color-secundario_publicidad)!important;
+    color: var(--color_secundario_publicidad)!important;
+}
+.widget-subscribe > .color_secundario_publicidad a:hover{
+	background-color: var(--color-secundario_publicidad)!important;
+	color: white!important;
+}
+
+/* Footer */
+.ft_secundario_bg_franja_publicidad{
+	background-color: var(--color-secundario_publicidad)!important;
+}
+
+.ft_terciario_bg_franja_publicidad{
+	background-color: var(--color-terciario_publicidad)!important;
+}
+.ft_referencia_bg_franja_publicidad{
+	background-color: var(--color-referencia_publicidad)!important;
+}
+
+.footer-latest .course-date_publicidad > * {
+    display: inline-block;
+    color: var(--color-terciario_publicidad);
+    font-weight: 500;
+    line-height: 15px;
+}
+
+
+
+.cws-button_publicidad {
+    border: 2px solid var(--color-terciario_publicidad) !important;
+}
+/* Los items  */
+ul .publicidad:before {
+    content: "\f111";
+    font-family: "FontAwesome";
+    font-size: 8px;
+    position: absolute;
+    left: 0px;
+    color: var(--color_primario_publicidad)!important;
+    font-weight: 800;
+    line-height: 35px;
+}
+/* single correcciones  */
+.blog_subcontent{
+	font-size: 12px; line-height: 3;
+}
+
+.picture > .hover-effect {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-secundario_publicidad)!important;
+    opacity: 0;
+    transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+/**/
